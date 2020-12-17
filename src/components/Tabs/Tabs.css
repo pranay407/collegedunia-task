@@ -1,0 +1,31 @@
+
+.award{
+    display: block;
+    position: absolute;
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 77%;
+    left: 2%;
+
+}
+
+.distance{
+    display: block;
+    position: absolute;
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 77%;
+    left: 34%;
+}

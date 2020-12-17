@@ -1,0 +1,123 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.leftside-info{
+    flex-basis: 60%;
+    line-height: 1.44rem;
+}
+
+.rightside-info{
+    flex-basis: 40%;
+    text-align: end;
+    line-height: 1.44rem;
+}
+
+.place-distance {
+    white-space: nowrap;
+    color: #444444;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+}
+.place-distance span{
+    font-weight: 500;
+    font-size: 13.5px;
+    color: #adadad;
+}
+.offertag{
+    background-color: #ccf5e7; /*#539f8e;*/ 
+    /* margin-left: -11px; */
+    white-space: nowrap;
+    border-radius: 0px 16px 16px 0px;
+    margin: 9px 85px 0 -12px;
+    padding: 11px 21px 11px 17px;
+}
+
+.offertag h5{
+    padding-left: 15px;
+}
+
+.disprice{
+    color: #dd1c26;
+    font-size: 28.5px;
+    font-weight: bold;
+}
+
+.collegeName{
+    color: #444444;
+    font-size: 18.5px;
+    font-weight: bold;
+}
+
+.fee_cycle{
+    color: #444444;
+    font-size: 11px;
+    line-height: 1.64;
+}
+
+.amenities{
+    font-size: 13.5px;
+    color: #37b396;
+    line-height: 1.33;
+    font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  margin: 20px 7px 14px 49px;
+  white-space: nowrap;
+}
+
+.place{
+    font-size: 13.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.og-price{
+    text-decoration: line-through;
+    margin-right: 18%;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: #444444;
+    line-height: 1.64;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.discount{
+    position: absolute;
+    width: 29px;
+    height: 20px;
+    background-color: #dd1c26;
+    color: white;
+    padding-right: 3px;
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 1.64;
+    font-stretch: normal;
+    font-style: normal;
+
+}
+
+.discount::before{
+    content: "";
+    position: absolute;
+    left: -25%;
+    border-left:7px solid white;
+    border-right:7px solid transparent;
+    border-top:11px solid white;
+    border-bottom:9px solid white;
+}

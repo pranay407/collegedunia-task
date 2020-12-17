@@ -1,0 +1,20 @@
+.rating-block{
+    display: block;
+    position: absolute;
+    width: 15%;
+    /* border: 1px solid #f5a626; */
+    border-radius: 3.8px;
+    top: 12%;
+    left: 81%;
+    background-color: #f5a626;
+    color: white;
+    padding: 8px;
+
+   
+}
+.rating-block h5{
+    text-align: center;
+}
+.number-rating{
+    text-align: center;
+}
